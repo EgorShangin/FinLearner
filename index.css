@@ -1,0 +1,45 @@
+@font-face {
+  font-family: pixelFont;
+  src: url(font.ttf);
+}
+
+.container {
+  font-family: pixelFont;
+  color: #fff;
+  text-shadow: 0px 3px 3px #000;
+  display: flex;
+  height: 100vh;
+  margin: 0;
+  background: url(background.png);
+  /* background-size: auto; */
+  /* background-position: 0 0;
+  background-repeat: repeat-x;
+  animation: background-move 30s linear infinite; */
+}
+
+.content {
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  margin: 0 auto 10px;
+  font-size: 20px;
+}
+
+.subtitle {
+  margin: 0 auto 10px;
+  font-size: 20px;
+  text-align: center;
+  padding: 0 5px;
+}
+
+/* @keyframes background-move {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100vw 0;
+  }
+} */
