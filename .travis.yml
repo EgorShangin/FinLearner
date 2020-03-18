@@ -1,9 +1,0 @@
-sudo: false
-
-language: html
-node_js:
-  - 9
-
-branches:
-  only:
-    - master
