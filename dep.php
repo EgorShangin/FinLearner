@@ -16,7 +16,7 @@ $github_cidrs = array('204.232.175.64/27', '192.30.252.0/22');
 
 if(in_array($_SERVER['REMOTE_ADDR'], $github_ips) || cidr_match($_SERVER['REMOTE_ADDR'], $github_cidrs)) {
     $dir = '/var/www/www-root/data/www/finlearn.ispvds.com';
-    exec("cd $dir && git pull 2>&1", $output);
+    exec("cd $dir && git pull  origin master 2>&1", $output);
     echo $output;
 }
 else {
